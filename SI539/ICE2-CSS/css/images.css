@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border: black 5px solid;
+  display: inline-block;
+  margin: 50px;
+  padding: 50px;
+  width: 15%;
+}
+
+.hover:hover {
+  border-radius: 100px;
+}
+
+.active:active {
+  opacity: 0.5;
+}
+
+.focus:focus {
+  filter: grayscale(100%);
+}
+
+.bar {
+  background-color: silver;
+  padding: 10px;
+  height: 40px;
+  width: 100%;
+}
+
+.square {
+  background-color: blue;
+  padding: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+.square:hover {
+  animation: sq_move 3s alternate infinite;
+}
+
+@keyframes sq_move {
+  from {
+    transform: translate(0,0);
+    /* transform: rotate(0deg); */
+  }
+  to {
+    transform: translate(1000px,0) rotate(180deg);
+  }
+}
