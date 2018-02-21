@@ -1,0 +1,34 @@
+@media screen and (min-width:650px) {
+  .top-nav ul {
+    text-align: center;
+  }
+
+  .top-nav ul li {
+    border-top: 1px solid red;
+    display: inline-block;
+    width: 20%;
+    line-height: 30px;
+    margin: 0;
+    float:none;
+  }
+
+  .photo-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .portrait {
+    width: 47.5%;
+  }
+}
+
+@media screen and (min-width:1000px) {
+  .photo-cell {
+    width: 47.5%;
+  }
+
+  .portrait {
+    width: 22.5%;
+  }
+}
