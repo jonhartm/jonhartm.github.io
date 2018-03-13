@@ -84,12 +84,12 @@
 <script>
   $(document).ready(function() {
     $(".preview").on({
-      mouseenter: function() {
+      'mouseenter focus': function() {
         $("#image")
           .text(this.alt)
           .css('background-image', 'url("'+this.src+'")');
       },
-      mouseleave: function() {
+      'mouseleave blur': function() {
         $("#image")
           .text("Hover over an image below.")
           .css('background-image', '');
