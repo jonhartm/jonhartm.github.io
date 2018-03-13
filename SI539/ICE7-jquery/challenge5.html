@@ -85,12 +85,14 @@
   $(document).ready(function() {
     $(".preview").on({
       mouseenter: function() {
-        $("#image").text($(this).attr("alt"));
-        $("#image").css('background-image', 'url("'+$(this).attr("src")+'")');
+        $("#image")
+          .text(this.alt)
+          .css('background-image', 'url("'+this.src+'")');
       },
       mouseleave: function() {
-        $("#image").text("Hover over an image below.");
-        $("#image").css('background-image', '');
+        $("#image")
+          .text("Hover over an image below.")
+          .css('background-image', '');
       }
     })
   })
