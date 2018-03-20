@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  border: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#title {
+  color: #090934;
+  text-align: center;
+  text-shadow: 2px 2px 3px #444444;
+  font-size: 3.5em;
+}
+
+body {
+  background: #53AC90;
+  color: #090934;
+  margin: auto;
+  padding: 1%;
+  width: 40%;
+}
+
+form {
+  padding: 2%;
+}
+
+h4 {
+  border-top: 0.25em solid black;
+  border-bottom: 0.25em solid black;
+  font-size: 1.5em;
+  padding: 10px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+legend, fieldset {
+  color: #090934;
+  background: #D4F7EC;
+  border: 5px solid #13138B;
+  border-radius: 10px;
+  box-shadow: 3px 3px 15px #444444;
+  padding: 10px;
+}
+
+fieldset {
+  display: flex;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+legend {
+  font-size: 1.125em;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2% auto;
+}
+
+div > label > input, select {
+  border-radius: 5px;
+  height: 2em;
+  line-height: 2em;
+  width: 80%;
+}
+
+div > label > input[type=date] {
+  width: 30%;
+}
+
+.cbx_label {
+  align-items: center;
+  flex-direction: row-reverse;
+  margin: 0;
+  padding-left: 25px;
+  position: relative;
+  vertical-align: top;
+}
+
+/* set the checkboxes to a fixed location relative to thir labels */
+.cbx_label > input {
+  position: absolute;
+  left: -12px;
+  top: 3px;
+}
+
+/* buttons */
+button, input[type=submit] {
+  background-color: #13138B;
+  border: 2px solid white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 15px #444444;
+  color: #D4F7EC;
+  cursor: pointer;
+  float: right;
+  font-size: 1.25em;
+  margin-left: auto;
+  padding: 2%;
+  transition-duration: 0.3s;
+}
+
+button:hover, input[type=submit]:hover {
+  background-color: #1258DC;
+  box-shadow: 0px 0px 0px #444444;
+  transform: translate(3px, 3px);
+}
+
+#apply {
+  font-size: 2em;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+/* a counter based on h4 tags */
+form {
+	counter-reset: steps;
+}
+
+form > div > h4:before {
+	content: "Step " counter(steps) ": ";
+	counter-increment: steps;
+}
+
+.warning {
+  color: red;
+  display: block;
+  font-weight: bold;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
