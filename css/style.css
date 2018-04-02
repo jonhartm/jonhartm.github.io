@@ -1,0 +1,71 @@
+* {
+  color: #08294F;
+  font-family: Tahoma, Geneva, sans-serif; }
+
+body {
+  background-color: #C9C9C9;
+  margin-bottom: 5em; }
+
+a {
+  text-decoration: none; }
+
+nav {
+  border-top: 3px solid #08294F;
+  border-bottom: 3px solid #08294F;
+  line-height: 2em; }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 100%; }
+    nav ul li {
+      color: #1D5596;
+      margin: auto;
+      font-size: 1.25em;
+      opacity: 1;
+      text-shadow: 1px 2px 4px gray; }
+      nav ul li a {
+        padding: 5%; }
+      nav ul li a:hover {
+        background-color: #6498D3; }
+
+.active_page {
+  opacity: .6; }
+  .active_page ::before {
+    color: #1D5596;
+    content: ">"; }
+
+.title {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 2.5em;
+  color: #1D5596;
+  border-bottom: 0.25em solid #08294F;
+  padding: .5em 0;
+  margin: .25em auto;
+  text-align: center;
+  text-shadow: 1px 2px 4px gray;
+  width: 95vw; }
+
+#contact {
+  position: fixed;
+  bottom: 4em;
+  width: 100%; }
+  #contact ul {
+    display: flex;
+    justify-content: space-around; }
+    #contact ul li a:hover {
+      border-top: 3px solid #08294F;
+      border-bottom: 3px solid #08294F;
+      border-radius: 5%; }
+
+footer {
+  background-color: #08294F;
+  bottom: 0;
+  color: #C9C9C9;
+  text-align: center;
+  left: 0;
+  line-height: 3em;
+  position: fixed;
+  width: 100%; }
+
+/*# sourceMappingURL=style.css.map */

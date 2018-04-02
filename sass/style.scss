@@ -1,0 +1,87 @@
+@import 'color_pallet';
+
+* {
+  color: $text;
+  font-family: $fontFamily;
+}
+
+body {
+  background-color: $background;
+  margin-bottom: 5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  border-top: 3px solid $text;
+  border-bottom: 3px solid $text;
+  line-height: 2em;
+  ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    // opacity: .6;
+    width: 100%;
+    li {
+      color: $dark-accent;
+      margin: auto;
+      font-size: 1.25em;
+      opacity: 1;
+      text-shadow: 1px 2px 4px gray;
+      a {
+        padding: 5%;
+      }
+      a:hover {
+        background-color: $light-accent;
+      }
+    }
+  }
+}
+
+.active_page {
+  opacity: .6;
+  ::before {
+    color: $dark-accent;
+    content: ">";
+  }
+}
+
+.title {
+  @include title-text;
+  border-bottom: .25em solid $text;
+  padding: .5em 0;
+  margin: .25em auto;
+  text-align: center;
+  text-shadow: 1px 2px 4px gray;
+  width: 95vw;
+}
+
+#contact {
+  position: fixed;
+  bottom: 4em;
+  width: 100%;
+  ul {
+    display: flex;
+    justify-content: space-around;
+    li {
+      a:hover {
+        border-top: 3px solid $text;
+        border-bottom: 3px solid $text;
+        border-radius: 5%;
+      }
+    }
+  }
+}
+
+footer {
+  background-color: $text;
+  bottom: 0;
+  color: $secondary-background;
+  text-align: center;
+  left: 0;
+  line-height: 3em;
+  position: fixed;
+  width: 100%;
+}

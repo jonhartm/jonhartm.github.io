@@ -1,0 +1,8 @@
+@media screen and (min-width: 480px) {
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}

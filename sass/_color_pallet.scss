@@ -1,0 +1,31 @@
+$background: #C9C9C9;
+$secondary-background: #C9C9C9;
+$light-accent: #6498D3;
+$dark-accent: #1D5596;
+$text: #08294F;
+
+$fontFamily: Tahoma, Geneva, sans-serif;
+
+@mixin title-text {
+  font: {
+    family: $fontFamily;
+    size: 2.5em;
+  }
+  color: $dark-accent;
+}
+
+@mixin secondary-title-text {
+  font: {
+    family: $fontFamily;
+    size: 1.5em;
+  }
+  color: $dark-accent;
+}
+
+@mixin standard-text {
+  font: {
+    family: $fontFamily;
+    size: 1em;
+  }
+  color: $text;
+}
