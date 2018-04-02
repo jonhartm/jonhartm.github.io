@@ -1,0 +1,49 @@
+@import 'color_pallet';
+
+.fa-bars {
+  padding: 2%;
+}
+
+.fa-bars:active {
+  animation:spin .25s linear 1;
+  @keyframes spin { 50% { transform:rotate(90deg); } }
+}
+
+nav {
+  border-top: 3px solid $text;
+  border-bottom: 3px solid $text;
+  min-height: 3em;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  ul {
+    list-style: none;
+    display: none;
+    width: 100%;
+    li {
+      border-top: 3px solid $text;
+      color: $dark-accent;
+      display: flex;
+      padding: 2% auto;
+      font-size: 1.25em;
+      text-shadow: 1px 2px 4px gray;
+      a {
+        margin: 2% auto;
+      }
+      a:hover {
+        background-color: $light-accent;
+      }
+    }
+  }
+}
+
+.active_page {
+  background-color: $light-accent;
+  ::before {
+    color: $dark-accent;
+    content: ">";
+  }
+  a {
+    opacity: .6;
+  }
+}

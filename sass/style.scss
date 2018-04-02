@@ -14,40 +14,6 @@ a {
   text-decoration: none;
 }
 
-nav {
-  border-top: 3px solid $text;
-  border-bottom: 3px solid $text;
-  line-height: 2em;
-  ul {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    // opacity: .6;
-    width: 100%;
-    li {
-      color: $dark-accent;
-      margin: auto;
-      font-size: 1.25em;
-      opacity: 1;
-      text-shadow: 1px 2px 4px gray;
-      a {
-        padding: 5%;
-      }
-      a:hover {
-        background-color: $light-accent;
-      }
-    }
-  }
-}
-
-.active_page {
-  opacity: .6;
-  ::before {
-    color: $dark-accent;
-    content: ">";
-  }
-}
-
 .title {
   @include title-text;
   border-bottom: .25em solid $text;

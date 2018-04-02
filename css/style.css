@@ -9,32 +9,6 @@ body {
 a {
   text-decoration: none; }
 
-nav {
-  border-top: 3px solid #08294F;
-  border-bottom: 3px solid #08294F;
-  line-height: 2em; }
-  nav ul {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    width: 100%; }
-    nav ul li {
-      color: #1D5596;
-      margin: auto;
-      font-size: 1.25em;
-      opacity: 1;
-      text-shadow: 1px 2px 4px gray; }
-      nav ul li a {
-        padding: 5%; }
-      nav ul li a:hover {
-        background-color: #6498D3; }
-
-.active_page {
-  opacity: .6; }
-  .active_page ::before {
-    color: #1D5596;
-    content: ">"; }
-
 .title {
   font-family: Tahoma, Geneva, sans-serif;
   font-size: 2.5em;
