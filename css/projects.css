@@ -1,10 +1,15 @@
+.projects {
+  display: flex;
+  flex-direction: column; }
+
 .project_container {
   background-color: white;
   border: 3px solid black;
   border-radius: 10px;
+  box-shadow: 5px 5px 10px grey;
   width: 95%;
   height: 18%;
-  margin: 1em 4%;
+  margin: 1em 2em;
   min-height: 150px;
   max-height: 250px;
   min-width: 250px;
@@ -29,6 +34,7 @@
     display: block;
     border: 1px solid #08294F;
     margin: auto;
+    padding: 2%;
     max-height: 15vh;
     max-width: 100%; }
   .project_container p {
