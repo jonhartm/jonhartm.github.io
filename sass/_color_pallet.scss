@@ -8,6 +8,9 @@ $text: #08294F;
 // $fontFamily: Tahoma, Geneva, sans-serif;
 $fontFamily: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
+$heavy-border: 3px solid $text;
+$light-border: 1px solid $text;
+
 @mixin title-text {
   font: {
     family: $fontFamily;

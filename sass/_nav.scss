@@ -16,8 +16,8 @@ header {
 }
 
 nav {
-  border-top: 3px solid $text;
-  border-bottom: 3px solid $text;
+  border-top: $heavy-border;
+  border-bottom: $heavy-border;
   min-height: 3em;
   display: flex;
   align-items: flex-end;
@@ -27,7 +27,7 @@ nav {
     display: none;
     width: 100%;
     li {
-      border-top: 3px solid $text;
+      border-top: $heavy-border;
       color: $dark-accent;
       display: flex;
       text-shadow: 1px 2px 4px gray;
