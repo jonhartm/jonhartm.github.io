@@ -20,16 +20,20 @@ $desktop_width: 1000px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    line-height: 4em;
+    align-items: center;
+    height: 4em;
+    li {
+      padding: 4px;
+      border: none;
+      border: 3px solid $text;
+      width: 7.5em;
+      margin: auto 1em;
+      a {
+        margin: 0 auto;
+      }
+    }
   }
 
-  #nav-bar > li {
-    padding: 4px;
-    border: none;
-    border-left: 3px solid $text;
-    border-right: 3px solid $text;
-    display: block;
-    width: 10em;
   .project_container {
     margin: 1em 2em;
   }
