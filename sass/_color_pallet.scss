@@ -14,6 +14,8 @@ $fontFamily: Arial, "Helvetica Neue", Helvetica, sans-serif;
     size: 2.25em;
   }
   color: $dark-accent;
+  text-shadow: 1px 2px 4px gray;
+  margin: auto;
 }
 
 @mixin secondary-title-text {
@@ -22,6 +24,15 @@ $fontFamily: Arial, "Helvetica Neue", Helvetica, sans-serif;
     size: 1.25em;
   }
   color: $dark-accent;
+}
+
+@mixin emphasis-text {
+  font: {
+    family: $fontFamily;
+    size: 0.75em;
+    style: italic;
+  }
+  color: $light-accent;
 }
 
 @mixin standard-text {
