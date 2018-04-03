@@ -22,16 +22,30 @@
 </header>
   <p>Filter to Projects Containing:</p>
   <form id="filter">
-    <input type="checkbox" id="cbx_python">
-    <label for="cbx_python">Python</label>
-    <input type="checkbox" id="cbx_csharp">
-    <label for="cbx_csharp">C#</label>
-    <input type="checkbox" id="cbx_jsjq">
-    <label for="cbx_jsjq">Javascript/jQuery</label>
-    <input type="checkbox" id="cbx_php">
-    <label for="cbx_php">PHP</label>
-    <input type="checkbox" id="cbx_htmlcss">
-    <label for="cbx_htmlcss">HTML/CSS</label>
+    <div class="filter_cbx">
+      <input type="checkbox" id="cbx_python" name="Python">
+      <label for="cbx_python">Python</label>
+    </div>
+    <div class="filter_cbx">
+      <input type="checkbox" id="cbx_csharp" name="C#">
+      <label for="cbx_csharp">C#</label>
+    </div>
+    <div class="filter_cbx">
+      <input type="checkbox" id="cbx_jsjq" name="Javascript/jQuery">
+      <label for="cbx_jsjq">Javascript/jQuery</label>
+    </div>
+    <div class="filter_cbx">
+      <input type="checkbox" id="cbx_php" name="PHP">
+      <label for="cbx_php">PHP</label>
+    </div>
+    <div class="filter_cbx">
+      <input type="checkbox" id="cbx_htmlcss" name="HTML/CSS">
+      <label for="cbx_htmlcss">HTML/CSS</label>
+    </div>
+    <div class="filter_cbx">
+      <input type="checkbox" id="cbx_other" name="Other">
+      <label for="cbx_other">Other</label>
+    </div>
   </form>
 
   <div class="projects">
@@ -54,7 +68,7 @@
     </div>
     <div class="project_container">
       <h2>SI539 Final Portfolio Site</h2>
-      <h3>HTML, CSS, SASS, JQuery, Javascript</h3>
+      <h3>HTML, CSS, SASS, Javascript/jQuery</h3>
       <div class="description">
         <img src="images/placeholder.png" alt="Cover Photo for Project">
         <p>Final project for SI539 (You're looking at it)</p>
@@ -62,7 +76,7 @@
     </div>
     <div class="project_container">
       <h2>Copyright Interactive Webinar</h2>
-      <h3>Webinar Presentation</h3>
+      <h3>Webinar Presentation, Other</h3>
       <div class="description">
         <img src="images/WebinarCover.PNG" alt="Cover Photo for Project">
         <p>Plan, create, and conduct an interactive webinar.</p>
@@ -70,7 +84,7 @@
     </div>
     <div class="project_container">
       <h2>TSUGI Quiz Module Analytics</h2>
-      <h3>PHP, Javascript/JQuery, SQL</h3>
+      <h3>PHP, Javascript/jQuery, SQL</h3>
       <div class="description">
         <img src="images/placeholder.png" alt="Cover Photo for Project">
         <p>Extending the built-in quiz module for the Tsugi Project to provide visuals for quiz administrators.</p>
@@ -78,7 +92,7 @@
     </div>
     <div class="project_container">
       <h2>TSUGI Quiz Module Authoring</h2>
-      <h3>HTML, CSS, PHP, Javascript/JQuery</h3>
+      <h3>HTML, CSS, PHP, Javascript/jQuery</h3>
       <div class="description">
         <img src="images/placeholder.png" alt="Cover Photo for Project">
         <p>Extending the built-in quiz module to provide intuitive quiz creation with an html form.</p>
@@ -94,7 +108,7 @@
     </div>
     <div class="project_container">
       <h2>Digital Application Prototype</h2>
-      <h3>Interaction Design</h3>
+      <h3>Interaction Design, Other</h3>
       <div class="description">
         <img src="images/582Cover.PNG" alt="Cover Photo for Project">
         <p>Designing a simple, multi-screen application prototype with an emphasis on usability and interaction design.</p>
@@ -114,5 +128,6 @@
   crossorigin="anonymous"></script>
 <script src="js/project_desc.js"></script>
 <script src="js/nav.js"></script>
+<script src="js/project_filter.js"></script>
 </body>
 </html>
