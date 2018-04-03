@@ -1,14 +1,17 @@
 #filter {
   background-color: #C9C9C9;
+  border: 1px solid #08294F;
+  border-radius: 10px;
   width: 66%;
   margin: auto;
   display: flex;
-  flex-flow: row;
+  flex-flow: column;
   flex-wrap: wrap;
-  justify-content: center;
-  line-height: 1.5em;
+  align-items: flex-start;
+  line-height: 1em;
   align-items: center; }
-  #filter input {
+  #filter .filter_cbx {
+    width: 10em;
     margin-left: 1.5em; }
 
 .projects {

@@ -9,9 +9,19 @@ $desktop_width: 1000px;
     flex-wrap: wrap;
     align-items: flex-start;
   }
+
+  // the filter box on the projects page
+  #filter {
+    flex-direction: row;
+    justify-content: center;
+    .filter_cbx {
+      width: auto;
+    }
+  }
 }
 
 @media screen and (min-width: $desktop_width) {
+  // Hide the triple bars from the mobile view
   #bars {
     display: none;
   }
@@ -34,6 +44,8 @@ $desktop_width: 1000px;
     }
   }
 
+  // set the margin on the project containers so they don't end up
+  // mashed together in large screen views
   .project_container {
     margin: 1em 2em;
   }
