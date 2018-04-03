@@ -20,7 +20,7 @@
   }
 
   #nav-bar > li {
-    border: none;
+    display: block;
     padding: 2%;
   }
 }
