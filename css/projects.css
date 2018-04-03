@@ -69,4 +69,10 @@
     text-align: center;
     text-overflow: ellipsis; }
 
+.project_container:hover {
+  box-shadow: 1px 1px 10px grey;
+  transform: translate(5px, 5px);
+  transition-duration: .25s;
+  transition-timing-function: ease-in-out; }
+
 /*# sourceMappingURL=projects.css.map */
