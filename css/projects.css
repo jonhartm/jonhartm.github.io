@@ -14,7 +14,9 @@
 .projects {
   display: flex;
   flex-direction: column;
-  justify-content: center; }
+  justify-content: center;
+  max-width: 1500px;
+  margin: auto; }
 
 .project_container {
   background-color: white;
