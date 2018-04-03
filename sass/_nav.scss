@@ -11,8 +11,8 @@ header {
 }
 
 .fa-bars:active {
-  animation:spin .25s linear 1;
-  @keyframes spin { 50% { transform:rotate(90deg); } }
+  animation:scale .25s linear 1;
+  @keyframes scale { 50% { transform:scale(.9); } }
 }
 
 nav {

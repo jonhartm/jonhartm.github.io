@@ -7,10 +7,10 @@ header {
   padding: 2%; }
 
 .fa-bars:active {
-  animation: spin .25s linear 1; }
-@keyframes spin {
+  animation: scale .25s linear 1; }
+@keyframes scale {
   50% {
-    transform: rotate(90deg); } }
+    transform: scale(0.9); } }
 nav {
   border-top: 3px solid #08294F;
   border-bottom: 3px solid #08294F;
