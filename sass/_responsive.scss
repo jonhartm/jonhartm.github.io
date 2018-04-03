@@ -5,10 +5,8 @@ $desktop_width: 1000px;
 
 @media screen and (min-width: $tablet_width) {
   .projects {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: flex-start;
   }
 }
