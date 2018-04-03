@@ -1,3 +1,16 @@
+#filter {
+  background-color: #C9C9C9;
+  width: 66%;
+  margin: auto;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  line-height: 1.5em;
+  align-items: center; }
+  #filter input {
+    margin-left: 1.5em; }
+
 .projects {
   display: flex;
   flex-direction: column;
