@@ -1,5 +1,11 @@
 @import 'color_pallet';
 
+header {
+  background-color: $secondary-background;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
 .fa-bars {
   padding: 2%;
 }
@@ -16,8 +22,8 @@ nav {
   display: flex;
   align-items: flex-end;
   flex-direction: column;
+  width: 100%;
   ul {
-    list-style: none;
     display: none;
     width: 100%;
     li {
