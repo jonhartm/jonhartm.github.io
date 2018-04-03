@@ -9,6 +9,7 @@
   <link href="css/responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
 </head>
+<body>
 <header>
   <nav>
     <i id="bars" class="fas fa-bars fa-2x"></i>
@@ -20,18 +21,17 @@
   </nav>
   <h1 id="title">Projects</h1>
 </header>
-<body>
   <p>Filter to Projects Containing:</p>
   <form id="filter">
-    <input type="checkbox" name="cbx_python"></input>
+    <input type="checkbox" id="cbx_python">
     <label for="cbx_python">Python</label>
-    <input type="checkbox" name="cbx_csharp"></input>
+    <input type="checkbox" id="cbx_csharp">
     <label for="cbx_csharp">C#</label>
-    <input type="checkbox" name="cbx_jsjq"></input>
+    <input type="checkbox" id="cbx_jsjq">
     <label for="cbx_jsjq">Javascript/jQuery</label>
-    <input type="checkbox" name="cbx_php"></input>
+    <input type="checkbox" id="cbx_php">
     <label for="cbx_php">PHP</label>
-    <input type="checkbox" name="cbx_htmlcss"></input>
+    <input type="checkbox" id="cbx_htmlcss">
     <label for="cbx_htmlcss">HTML/CSS</label>
   </form>
 
@@ -40,7 +40,7 @@
       <h2>SI506 Final Project</h2>
       <h3>Python, HTML</h3>
       <div class="description">
-        <img src="images/507Cover.PNG"></img>
+        <img src="images/507Cover.PNG" alt="Cover Photo for Project">
         <p class="project_description">
           Command line python program demonstrating understanding of APIs and caching patterns.</p>
       </div>
@@ -49,7 +49,7 @@
       <h2>SI507 Final Project</h2>
       <h3>Python, SQL</h3>
       <div class="description">
-        <img src="images/placeholder.png"></img>
+        <img src="images/placeholder.png" alt="Cover Photo for Project">
         <p>Final project for SI507</p>
       </div>
     </div>
@@ -57,7 +57,7 @@
       <h2>SI539 Final Portfolio Site</h2>
       <h3>HTML, CSS, SASS, JQuery, Javascript</h3>
       <div class="description">
-        <img src="images/placeholder.png"></img>
+        <img src="images/placeholder.png" alt="Cover Photo for Project">
         <p>Final project for SI539 (You're looking at it)</p>
       </div>
     </div>
@@ -65,7 +65,7 @@
       <h2>Copyright Interactive Webinar</h2>
       <h3>Webinar Presentation</h3>
       <div class="description">
-        <img src="images/WebinarCover.PNG"></img>
+        <img src="images/WebinarCover.PNG" alt="Cover Photo for Project">
         <p>Plan, create, and conduct an interactive webinar.</p>
       </div>
     </div>
@@ -73,7 +73,7 @@
       <h2>TSUGI Quiz Module Analytics</h2>
       <h3>PHP, Javascript/JQuery, SQL</h3>
       <div class="description">
-        <img src="images/placeholder.png"></img>
+        <img src="images/placeholder.png" alt="Cover Photo for Project">
         <p>Extending the built-in quiz module for the Tsugi Project to provide visuals for quiz administrators.</p>
       </div>
     </div>
@@ -81,7 +81,7 @@
       <h2>TSUGI Quiz Module Authoring</h2>
       <h3>HTML, CSS, PHP, Javascript/JQuery</h3>
       <div class="description">
-        <img src="images/placeholder.png"></img>
+        <img src="images/placeholder.png" alt="Cover Photo for Project">
         <p>Extending the built-in quiz module to provide intuitive quiz creation with an html form.</p>
       </div>
     </div>
@@ -89,7 +89,7 @@
       <h2>OpenGL in C#</h2>
       <h3>C#</h3>
       <div class="description">
-        <img src="images/OpenGLCover.PNG"></img>
+        <img src="images/OpenGLCover.PNG" alt="Cover Photo for Project">
         <p>Creating a simple OpenGL engine using the OpenTK Framwork.</p>
       </div>
     </div>
@@ -97,14 +97,13 @@
       <h2>Digital Application Prototype</h2>
       <h3>Interaction Design</h3>
       <div class="description">
-        <img src="images/582Cover.PNG"></img>
+        <img src="images/582Cover.PNG" alt="Cover Photo for Project">
         <p>Designing a simple, multi-screen application prototype with an emphasis on usability and interaction design.</p>
       </div>
     </div>
   </div>
-</body>
 <footer>
-  Created by Jonathan Hartman &copy 2018
+  Created by Jonathan Hartman &copy; 2018
 </footer>
 <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -116,4 +115,5 @@
   crossorigin="anonymous"></script>
 <script src="js/project_desc.js"></script>
 <script src="js/nav.js"></script>
+</body>
 </html>
