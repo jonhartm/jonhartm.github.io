@@ -41,6 +41,9 @@ nav {
   .active_page ::before {
     color: #1D5596;
     content: ">"; }
+  .active_page ::after {
+    color: #1D5596;
+    content: "<"; }
   .active_page a {
     opacity: .6; }
 

@@ -51,6 +51,10 @@ nav {
     color: $dark-accent;
     content: ">";
   }
+  ::after {
+    color: $dark-accent;
+    content: "<";
+  }
   a {
     opacity: .6;
   }
