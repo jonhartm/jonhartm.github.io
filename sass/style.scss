@@ -1,7 +1,5 @@
 @import 'color_pallet';
 @import 'nav';
-@import 'responsive_tablet';
-@import 'responsive_desktop';
 
 * {
   color: $text;
@@ -105,3 +103,6 @@ footer {
   text-align: center;
   line-height: 3em;
 }
+
+@import 'responsive_tablet';
+@import 'responsive_desktop';

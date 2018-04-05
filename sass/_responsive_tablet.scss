@@ -3,9 +3,55 @@
 $tablet_width: 480px;
 $desktop_width: 1000px;
 
+// ---------- TABLET ONLY RULES ---------
+@media screen and (min-width: $tablet_width) and (max-width: $desktop_width){
+  #contact {
+    li {
+      width: 2.5em;
+      border-radius: 50%;
+    }
+    span {
+      display: none;
+    }
+  }
+}
+
+// ---------- INHERITABLE RULES ---------
 @media screen and (min-width: $tablet_width) {
+  // move the contact links to the upper left of the page
+  #contact {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: initial;
+    height: 4em;
+    width: 10em;
+    padding: 0;
+    justify-content: flex-start;
+    ul {
+      margin-top: .5em;
+      li {
+        height: 2.5em;
+
+        border: $heavy-border;
+
+        align-items: center;
+        a {
+          display: block;
+          margin: .25em .25em;
+          &:hover{
+            border: none; // remove the border effect from earlier
+          }
+        }
+        &:hover{
+          background-color: $light-accent;
+        }
+      }
+    }
+  }
+
   .projects {
-    // flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
   }
