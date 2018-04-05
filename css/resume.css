@@ -16,7 +16,8 @@
       font-size: 1.25em;
       color: #1D5596;
       font-style: italic;
-      font-size: 1em; }
+      font-size: 1em;
+      text-align: left; }
     .resume_section .resume_entry .entry_title {
       display: flex;
       flex-direction: row;

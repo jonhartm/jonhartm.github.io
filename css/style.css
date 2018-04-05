@@ -77,8 +77,12 @@ h3 {
   font-size: 0.75em;
   font-style: italic;
   color: #6498D3;
-  margin: 1% 3%;
   text-align: right; }
+
+p {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1em;
+  color: #08294F; }
 
 #title {
   border-bottom: 3px solid #08294F;
@@ -107,7 +111,7 @@ h3 {
 
 body {
   background-color: #FFFFFF;
-  margin-bottom: 6em; }
+  margin-bottom: 7em; }
   body .skills {
     display: flex;
     flex-wrap: wrap;

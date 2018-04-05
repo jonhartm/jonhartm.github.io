@@ -27,8 +27,11 @@ h2 {
 
 h3 {
   @include emphasis-text;
-  margin: 1% 3%;
   text-align: right;
+}
+
+p {
+  @include standard-text;
 }
 
 #title {
@@ -62,7 +65,7 @@ h3 {
 
 body {
   background-color: $background;
-  margin-bottom: 6em;
+  margin-bottom: 7em;
 
   .skills {
     display: flex;

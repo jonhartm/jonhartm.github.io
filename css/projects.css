@@ -46,6 +46,8 @@
     z-index: 1; }
   .project_container h2 {
     line-height: 1.5em; }
+  .project_container h3 {
+    margin: 1% 3%; }
   .project_container .description {
     margin: 3%; }
   .project_container img {
@@ -56,6 +58,7 @@
     max-height: 15vh;
     max-width: 100%; }
   .project_container p {
+    margin: 3%;
     text-align: center; }
 
 /*# sourceMappingURL=projects.css.map */
