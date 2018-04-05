@@ -31,15 +31,15 @@ nav {
       color: $dark-accent;
       display: flex;
       text-shadow: 1px 2px 4px gray;
+      &:hover{
+        background-color: $light-accent;
+      }
       a {
         font-size: 1.25em;
         line-height: 1.5em;
         margin: 0 auto;
         width: 100%;
         text-align: center;
-      }
-      a:hover {
-        background-color: $light-accent;
       }
     }
   }

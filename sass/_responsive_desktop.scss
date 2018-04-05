@@ -51,17 +51,28 @@ $desktop_width: 1000px;
     }
   }
 
+  .projects {
+    width: 95%;
+    flex-flow: row;
+    flex-wrap: wrap;
+  }
+
   // set the margin on the project containers so they don't end up
   // mashed together in large screen views
   .project_container {
     margin: 1em 2em;
+    &:hover {
+      // save the on hover trick for the desktop site
+      box-shadow: 1px 1px 10px grey;
+      transform: translate(5px, 5px);
+      transition-duration: .25s;
+      transition-timing-function: ease-in-out;
+    }
   }
 
-  // save the on hover trick for the desktop site
-  .project_container:hover {
-    box-shadow: 1px 1px 10px grey;
-    transform: translate(5px, 5px);
-    transition-duration: .25s;
-    transition-timing-function: ease-in-out;
+  footer {
+    line-height: 1.5em;
+    text-align: right;
+    font-size: 75%;
   }
 }

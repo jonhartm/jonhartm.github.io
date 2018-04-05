@@ -27,14 +27,14 @@ nav {
       color: #1D5596;
       display: flex;
       text-shadow: 1px 2px 4px gray; }
+      nav ul li:hover {
+        background-color: #6498D3; }
       nav ul li a {
         font-size: 1.25em;
         line-height: 1.5em;
         margin: 0 auto;
         width: 100%;
         text-align: center; }
-      nav ul li a:hover {
-        background-color: #6498D3; }
 
 .active_page {
   background-color: #A3A3A3; }
@@ -139,7 +139,16 @@ footer {
     width: 2.5em;
     border-radius: 50%; }
   #contact span {
-    display: none; } }
+    display: none; }
+
+  .project_container {
+    max-width: 80%; }
+    .project_container:nth-child(even) p {
+      order: -1; }
+
+  .projects {
+    flex-wrap: wrap;
+    align-items: flex-start; } }
 @media screen and (min-width: 480px) {
   #contact {
     background-color: transparent;
@@ -165,21 +174,12 @@ footer {
         #contact ul li:hover {
           background-color: #6498D3; }
 
-  .projects {
-    flex-wrap: wrap;
-    align-items: flex-start; }
-
-  .project_container {
-    max-width: 80%; }
-    .project_container .description {
-      display: flex;
-      flex-flow: row nowrap;
-      justify-content: space-evenly; }
-      .project_container .description img {
-        display: block; }
-
-  .project_container:nth-child(even) p {
-    order: -1; } }
+  .project_container .description {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly; }
+    .project_container .description img {
+      display: block; } }
 @media screen and (min-width: 1000px) {
   #contact {
     width: 20%; }
@@ -218,13 +218,22 @@ footer {
     #filter .filter_cbx {
       width: auto; }
 
+  .projects {
+    width: 95%;
+    flex-flow: row;
+    flex-wrap: wrap; }
+
   .project_container {
     margin: 1em 2em; }
+    .project_container:hover {
+      box-shadow: 1px 1px 10px grey;
+      transform: translate(5px, 5px);
+      transition-duration: .25s;
+      transition-timing-function: ease-in-out; }
 
-  .project_container:hover {
-    box-shadow: 1px 1px 10px grey;
-    transform: translate(5px, 5px);
-    transition-duration: .25s;
-    transition-timing-function: ease-in-out; } }
+  footer {
+    line-height: 1.5em;
+    text-align: right;
+    font-size: 75%; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -14,6 +14,20 @@ $desktop_width: 1000px;
       display: none;
     }
   }
+
+  .project_container {
+    max-width: 80%;
+    &:nth-child(even) {
+      p {
+        order: -1;
+      }
+    }
+  }
+
+  .projects {
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
 }
 
 // ---------- INHERITABLE RULES ---------
@@ -51,13 +65,8 @@ $desktop_width: 1000px;
     }
   }
 
-  .projects {
-    flex-wrap: wrap;
-    align-items: flex-start;
-  }
-
   .project_container {
-    max-width: 80%;
+
     .description {
       display: flex;
       flex-flow: row nowrap;
@@ -67,9 +76,5 @@ $desktop_width: 1000px;
       }
     }
   }
-  .project_container:nth-child(even) {
-    p {
-      order: -1;
-    }
-  }
+
 }
