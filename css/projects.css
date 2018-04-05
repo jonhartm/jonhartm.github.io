@@ -1,10 +1,13 @@
+#filter_prompt {
+  display: none; }
+
 #filter {
+  display: none;
   background-color: #C9C9C9;
   border: 1px solid #08294F;
   border-radius: 10px;
   width: 66%;
   margin: auto;
-  display: flex;
   flex-flow: column;
   flex-wrap: wrap;
   align-items: flex-start;

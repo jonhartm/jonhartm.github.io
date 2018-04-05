@@ -48,13 +48,7 @@ nav {
   .projects {
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: flex-start; }
-
-  #filter {
-    flex-direction: row;
-    justify-content: center; }
-    #filter .filter_cbx {
-      width: auto; } }
+    align-items: flex-start; } }
 @media screen and (min-width: 1000px) {
   #bars {
     display: none; }
@@ -73,6 +67,16 @@ nav {
       margin: auto 1em; }
       #nav-bar li a {
         margin: 0 auto; }
+
+  #filter_prompt {
+    display: block; }
+
+  #filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    #filter .filter_cbx {
+      width: auto; }
 
   .project_container {
     margin: 1em 2em; } }

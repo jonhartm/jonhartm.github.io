@@ -10,14 +10,6 @@ $desktop_width: 1000px;
     align-items: flex-start;
   }
 
-  // the filter box on the projects page
-  #filter {
-    flex-direction: row;
-    justify-content: center;
-    .filter_cbx {
-      width: auto;
-    }
-  }
 }
 
 @media screen and (min-width: $desktop_width) {
@@ -41,6 +33,19 @@ $desktop_width: 1000px;
       a {
         margin: 0 auto;
       }
+    }
+  }
+
+  // the filter box on the projects page
+  #filter_prompt {
+    display: block;
+  }
+  #filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .filter_cbx {
+      width: auto;
     }
   }
 

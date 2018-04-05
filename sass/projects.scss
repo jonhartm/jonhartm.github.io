@@ -1,12 +1,16 @@
 @import 'color_pallet';
 
+#filter_prompt {
+  display: none;
+}
+
 #filter {
+  display: none; // hide unless we're on a large screen
   background-color: $secondary-background;
   border: 1px solid $text;
   border-radius: 10px;
   width: 66%;
   margin: auto;
-  display: flex;
   flex-flow: column;
   flex-wrap: wrap;
   align-items: flex-start;
