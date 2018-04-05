@@ -105,7 +105,7 @@ body {
       margin: .25em 1em;
       font-style: italic; }
   body p {
-    padding: 1em;
+    padding: 0 1em;
     max-width: 750px;
     margin: auto; }
 

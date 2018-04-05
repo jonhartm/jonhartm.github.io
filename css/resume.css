@@ -1,0 +1,36 @@
+.resume_section {
+  margin: 1em 0; }
+  .resume_section h2 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.25em;
+    color: #1D5596;
+    text-align: center;
+    border-bottom: 1px solid #08294F; }
+  .resume_section .resume_entry {
+    margin: .5em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; }
+    .resume_section .resume_entry h3 {
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      font-size: 1.25em;
+      color: #1D5596;
+      font-style: italic;
+      font-size: 1em; }
+    .resume_section .resume_entry .entry_title {
+      display: flex;
+      flex-direction: row;
+      align-content: space-between; }
+      .resume_section .resume_entry .entry_title .description {
+        font-style: italic;
+        margin-left: 0; }
+      .resume_section .resume_entry .entry_title .date {
+        margin-right: 0; }
+    .resume_section .resume_entry .list_title {
+      margin: .5em 0; }
+  .resume_section ul {
+    margin-left: 3em; }
+    .resume_section ul li {
+      list-style: circle; }
+
+/*# sourceMappingURL=resume.css.map */
