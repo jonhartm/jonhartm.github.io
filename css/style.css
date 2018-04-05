@@ -27,7 +27,7 @@ nav {
       color: #1D5596;
       display: flex;
       text-shadow: 1px 2px 4px gray; }
-      nav ul li:hover {
+      nav ul li:not(.active_page):hover {
         background-color: #6498D3; }
       nav ul li a {
         font-size: 1.25em;

@@ -31,7 +31,7 @@ nav {
       color: $dark-accent;
       display: flex;
       text-shadow: 1px 2px 4px gray;
-      &:hover{
+      &:not(.active_page):hover{
         background-color: $light-accent;
       }
       a {
