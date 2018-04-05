@@ -21,10 +21,14 @@ h1 {
 
 h2 {
   @include secondary-title-text;
+  border-bottom: 1px solid $text;
+  text-align: center;
 }
 
 h3 {
   @include emphasis-text;
+  margin: 1% 3%;
+  text-align: right;
 }
 
 #title {
