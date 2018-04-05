@@ -1,29 +1,33 @@
-$background: #FFFFFF;
-$secondary-background: #C9C9C9;
-$dark-background: #A3A3A3;
-$light-accent: #6498D3;
-$dark-accent: #1D5596;
-$text: #08294F;
+$tablet-width: 480px;
+$desktop-width: 1000px;
+
+$background: #fff;
+$secondary-background: #c9c9c9;
+$dark-background: #a3a3a3;
+$light-accent: #6498d3;
+$dark-accent: #1d5596;
+$text: #08294f;
+$shadow: #808080;
 
 // $fontFamily: Tahoma, Geneva, sans-serif;
-$fontFamily: Arial, "Helvetica Neue", Helvetica, sans-serif;
+$font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
 $heavy-border: 3px solid $text;
 $light-border: 1px solid $text;
 
 @mixin title-text {
   font: {
-    family: $fontFamily;
+    family: $font-family;
     size: 2.25em;
   }
   color: $dark-accent;
-  text-shadow: 1px 2px 4px gray;
+  text-shadow: 1px 2px 4px $shadow;
   margin: auto;
 }
 
 @mixin secondary-title-text {
   font: {
-    family: $fontFamily;
+    family: $font-family;
     size: 1.25em;
   }
   color: $dark-accent;
@@ -31,8 +35,8 @@ $light-border: 1px solid $text;
 
 @mixin emphasis-text {
   font: {
-    family: $fontFamily;
-    size: 0.75em;
+    family: $font-family;
+    size: .75em;
     style: italic;
   }
   color: $light-accent;
@@ -40,7 +44,7 @@ $light-border: 1px solid $text;
 
 @mixin standard-text {
   font: {
-    family: $fontFamily;
+    family: $font-family;
     size: 1em;
   }
   color: $text;

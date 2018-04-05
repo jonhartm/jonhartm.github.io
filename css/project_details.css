@@ -1,17 +1,15 @@
 .project {
-  width: 90%;
+  border-bottom: 3px solid #08294f;
   margin: 3em auto;
-  border-bottom: 3px solid #08294F;
-  padding: 2%; }
+  padding: 2%;
+  width: 90%; }
 
-.image_container {
+.image-container {
+  align-items: center;
   display: flex;
   flex-direction: row;
-  align-items: center;
   margin: 2%; }
-  .image_container img {
-    max-width: 45%; }
-  .image_container a {
-    background-color: pink; }
+  .image-container img {
+    width: 45%; }
 
 /*# sourceMappingURL=project_details.css.map */

@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $(".fa-bars").click(function() {
-    $("#nav-bar").toggle("blind", 200);
+    $(".nav-bar").toggle("blind", 200);
   });
 
   // set the FA icons for large views

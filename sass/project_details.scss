@@ -1,24 +1,19 @@
 @import 'color_pallet';
 
-.projects_container {
-}
-
 .project {
-  width: 90%;
-  margin: 3em auto;
   border-bottom: $heavy-border;
+  margin: 3em auto;
   padding: 2%;
+  width: 90%;
 }
 
-.image_container {
+.image-container {
+  align-items: center;
   display: flex;
   flex-direction: row;
-  align-items: center;
   margin: 2%;
+
   img {
-    max-width: 45%;
-  }
-  a {
-    background-color: pink;
+    width: 45%;
   }
 }

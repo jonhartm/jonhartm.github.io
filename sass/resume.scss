@@ -1,41 +1,50 @@
 @import 'color_pallet';
 
-.resume_section {
+.resume-section {
   margin: 1em 0;
+
   h2 {
     @include secondary-title-text;
-    text-align: center;
     border-bottom: $light-border;
+    text-align: center;
   }
-  .resume_entry {
-    h3 {
-      @include secondary-title-text;
-      font-style: italic;
-      font-size: 1em;
-      text-align: left;
-    }
-    margin: .5em 0;
+
+  .resume-entry {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    .entry_title {
+    margin: .5em 0;
+
+    h3 {
+      @include secondary-title-text;
+      font-size: 1em;
+      font-style: italic;
+      text-align: left;
+    }
+
+    .entry-title {
+      align-content: space-between;
       display: flex;
       flex-direction: row;
-      align-content: space-between;
+
       .description {
         font-style: italic;
         margin-left: 0;
       }
-      .date{
+
+      .date {
         margin-right: 0;
       }
     }
-    .list_title {
+
+    .list-title {
       margin: .5em 0;
     }
   }
+
   ul {
     margin-left: 3em;
+
     li {
       list-style: circle;
     }

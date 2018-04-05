@@ -11,50 +11,57 @@ header {
 }
 
 .fa-bars:active {
-  animation:scale .25s linear 1;
-  @keyframes scale { 50% { transform:scale(.9); } }
+  animation: scale .25s linear 1;
+  @keyframes scale { 50% { transform: scale(.9); } }
 }
 
 nav {
-  border-top: $heavy-border;
-  border-bottom: $heavy-border;
-  min-height: 3em;
-  display: flex;
   align-items: flex-end;
+  border-bottom: $heavy-border;
+  border-top: $heavy-border;
+  display: flex;
   flex-direction: column;
+  min-height: 3em;
   width: 100%;
+
   ul {
     display: none;
     width: 100%;
+
     li {
       border-top: $heavy-border;
       color: $dark-accent;
       display: flex;
-      text-shadow: 1px 2px 4px gray;
-      &:not(.active_page):hover{
+      text-shadow: 1px 2px 4px $shadow;
+
+      &:not(.active-page):hover {
         background-color: $light-accent;
       }
+
       a {
         font-size: 1.25em;
         line-height: 1.5em;
         margin: 0 auto;
-        width: 100%;
         text-align: center;
+        width: 100%;
       }
     }
   }
 }
 
-.active_page {
+.active-page {
   background-color: $dark-background;
+
   ::before {
     color: $dark-accent;
-    content: ">";
+    content: '>';
   }
+
   ::after {
     color: $dark-accent;
-    content: "<";
+    content: '<';
   }
+
   a {
     opacity: .6;
   }
