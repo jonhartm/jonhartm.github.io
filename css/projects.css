@@ -37,6 +37,13 @@
   min-width: 250px;
   max-width: 350px;
   position: relative; }
+  .project_container a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1; }
   .project_container h2 {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 1.25em;
@@ -54,29 +61,13 @@
   .project_container .description {
     margin: 3%; }
   .project_container img {
-    display: block;
+    display: none;
     border: 1px solid #08294F;
     margin: auto;
     padding: 2%;
     max-height: 15vh;
     max-width: 100%; }
   .project_container p {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 1em;
-    color: #08294F;
-    display: none;
-    position: absolute;
-    top: 35%;
-    left: 0;
-    margin: 3%;
-    overflow: hidden;
-    text-align: center;
-    text-overflow: ellipsis; }
-
-.project_container:hover {
-  box-shadow: 1px 1px 10px grey;
-  transform: translate(5px, 5px);
-  transition-duration: .25s;
-  transition-timing-function: ease-in-out; }
+    text-align: center; }
 
 /*# sourceMappingURL=projects.css.map */

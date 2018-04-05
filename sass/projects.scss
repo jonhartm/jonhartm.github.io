@@ -44,6 +44,16 @@
   max-width: 350px;
   position: relative;
 
+  // make the link cover a click anywhere in the div
+  a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
   // titles for each div
   h2 {
     @include secondary-title-text;
@@ -64,7 +74,7 @@
   }
 
   img {
-    display: block;
+    display: none; // supress images unless we're on the tablet/desktop version
     border: 1px solid $text;
     margin: auto;
     padding: 2%;
@@ -73,21 +83,14 @@
   }
 
   p {
-    @include standard-text;
-    display: none;
-    position: absolute;
-    top: 35%;
-    left: 0;
-    margin: 3%;
-    overflow: hidden;
+    // @include standard-text;
+    // display: block;
+    // position: absolute;
+    // top: 35%;
+    // left: 0;
+    // margin: 3%;
+    // overflow: hidden;
     text-align: center;
-    text-overflow: ellipsis;
+    // text-overflow: ellipsis;
   }
-}
-
-.project_container:hover {
-  box-shadow: 1px 1px 10px grey;
-  transform: translate(5px, 5px);
-  transition-duration: .25s;
-  transition-timing-function: ease-in-out;
 }

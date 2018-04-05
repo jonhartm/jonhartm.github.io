@@ -79,7 +79,13 @@ nav {
       width: auto; }
 
   .project_container {
-    margin: 1em 2em; } }
+    margin: 1em 2em; }
+
+  .project_container:hover {
+    box-shadow: 1px 1px 10px grey;
+    transform: translate(5px, 5px);
+    transition-duration: .25s;
+    transition-timing-function: ease-in-out; } }
 * {
   color: #08294F;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;

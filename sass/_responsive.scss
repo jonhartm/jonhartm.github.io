@@ -54,4 +54,12 @@ $desktop_width: 1000px;
   .project_container {
     margin: 1em 2em;
   }
+
+  // save the on hover trick for the desktop site
+  .project_container:hover {
+    box-shadow: 1px 1px 10px grey;
+    transform: translate(5px, 5px);
+    transition-duration: .25s;
+    transition-timing-function: ease-in-out;
+  }
 }
