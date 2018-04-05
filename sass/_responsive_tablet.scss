@@ -5,9 +5,25 @@ $desktop_width: 1000px;
 
 @media screen and (min-width: $tablet_width) {
   .projects {
-    flex-direction: row;
+    // flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
   }
 
+  .project_container {
+    max-width: 80%;
+    .description {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-evenly;
+      img {
+        display: block;
+      }
+    }
+  }
+  .project_container:nth-child(even) {
+    p {
+      order: -1;
+    }
+  }
 }

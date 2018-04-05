@@ -49,9 +49,20 @@ nav {
 
 @media screen and (min-width: 480px) {
   .projects {
-    flex-direction: row;
     flex-wrap: wrap;
-    align-items: flex-start; } }
+    align-items: flex-start; }
+
+  .project_container {
+    max-width: 80%; }
+    .project_container .description {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-evenly; }
+      .project_container .description img {
+        display: block; }
+
+  .project_container:nth-child(even) p {
+    order: -1; } }
 @media screen and (min-width: 1000px) {
   #bars {
     display: none; }
