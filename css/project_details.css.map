@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAKA,QAAS;EACP,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,QAAQ;EAChB,aAAa,ECEA,iBAAe;EDD5B,OAAO,EAAE,EAAE;;AAGb,gBAAiB;EACf,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,WAAW,EAAE,MAAM;EACnB,MAAM,EAAE,EAAE;EACV,oBAAI;IACF,SAAS,EAAE,GAAG;EAEhB,kBAAE;IACA,gBAAgB,EAAE,IAAI",
+"sources": ["../sass/project_details.scss","../sass/_color_pallet.scss"],
+"names": [],
+"file": "project_details.css"
+}
