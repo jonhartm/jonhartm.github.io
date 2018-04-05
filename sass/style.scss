@@ -19,6 +19,14 @@ h1 {
   @include title-text;
 }
 
+h2 {
+  @include secondary-title-text;
+}
+
+h3 {
+  @include emphasis-text;
+}
+
 #title {
   border-bottom: $heavy-border;
   width: 95%;
