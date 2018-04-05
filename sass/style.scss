@@ -1,6 +1,7 @@
 @import 'color_pallet';
 @import 'nav';
-@import 'responsive';
+@import 'responsive_tablet';
+@import 'responsive_desktop';
 
 * {
   color: $text;

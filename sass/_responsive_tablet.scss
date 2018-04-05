@@ -1,0 +1,13 @@
+@import 'color_pallet';
+
+$tablet_width: 480px;
+$desktop_width: 1000px;
+
+@media screen and (min-width: $tablet_width) {
+  .projects {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+}
