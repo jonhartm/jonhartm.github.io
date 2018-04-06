@@ -209,7 +209,10 @@ footer {
     flex-flow: row nowrap;
     justify-content: space-evenly; }
     .project-container .description img {
-      display: block; } }
+      display: block; }
+    .project-container .description p {
+      font-size: 125%;
+      margin: auto; } }
 @media screen and (min-width: 1000px) {
   .contact {
     width: 20%; }
