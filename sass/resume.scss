@@ -1,7 +1,8 @@
 @import 'color_pallet';
 
 .resume-section {
-  margin: 1em 0;
+  margin: 1em auto;
+  max-width: 750px;
 
   h2 {
     @include secondary-title-text;

@@ -1,5 +1,6 @@
 .resume-section {
-  margin: 1em 0; }
+  margin: 1em auto;
+  max-width: 750px; }
   .resume-section h2 {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 1.25em;
