@@ -69,6 +69,14 @@
       transition-duration: .25s;
       transition-timing-function: ease-in-out;
     }
+
+    &:focus-within {
+      // save the on hover trick for the desktop site
+      box-shadow: 1px 1px 10px $shadow;
+      transform: translate(5px, 5px);
+      transition-duration: .25s;
+      transition-timing-function: ease-in-out;
+    }
   }
 
   .image-container {

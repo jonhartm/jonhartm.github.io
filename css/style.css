@@ -31,6 +31,8 @@ nav {
     text-shadow: 1px 2px 4px #808080; }
     nav li:not(.active-page):hover {
       background-color: #6498d3; }
+    nav li:not(.active-page):focus-within {
+      background-color: #6498d3; }
   nav a {
     font-size: 1.25em;
     line-height: 1.5em;
@@ -196,6 +198,8 @@ footer {
         border: 0; }
       .contact li:hover {
         background-color: #6498d3; }
+      .contact li:focus-within {
+        background-color: #6498d3; }
     .contact a {
       display: block;
       margin: .25em; }
@@ -250,6 +254,11 @@ footer {
   .project-container {
     margin: 1em 2em; }
     .project-container:hover {
+      box-shadow: 1px 1px 10px #808080;
+      transform: translate(5px, 5px);
+      transition-duration: .25s;
+      transition-timing-function: ease-in-out; }
+    .project-container:focus-within {
       box-shadow: 1px 1px 10px #808080;
       transform: translate(5px, 5px);
       transition-duration: .25s;

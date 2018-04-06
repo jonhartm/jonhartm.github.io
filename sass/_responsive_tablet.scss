@@ -71,6 +71,10 @@ $desktop-width: 1000px;
       &:hover {
         background-color: $light-accent;
       }
+
+      &:focus-within {
+        background-color: $light-accent;
+      }
     }
 
     a {

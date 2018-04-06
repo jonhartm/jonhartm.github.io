@@ -42,6 +42,10 @@ nav {
     &:not(.active-page):hover {
       background-color: $light-accent;
     }
+
+    &:not(.active-page):focus-within {
+      background-color: $light-accent;
+    }
   }
 
   a {
