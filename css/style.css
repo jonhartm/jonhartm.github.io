@@ -264,6 +264,12 @@ footer {
       transition-duration: .25s;
       transition-timing-function: ease-in-out; }
 
+  .description p {
+    display: none;
+    margin: auto;
+    position: absolute;
+    top: 40%; }
+
   .image-container {
     display: block; }
     .image-container .active {
