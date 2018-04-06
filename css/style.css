@@ -13,6 +13,7 @@ header {
     transform: scale(0.9); } }
 nav {
   align-items: flex-end;
+  background-color: rgba(100, 152, 211, 0.4);
   border-bottom: 3px solid #08294f;
   border-top: 3px solid #08294f;
   display: flex;
@@ -222,9 +223,9 @@ footer {
     .nav-bar li {
       border: 3px solid #08294f;
       border-radius: 35px;
-      margin: auto 1em;
+      margin: auto .5em;
       padding: 4px;
-      width: 8.5em; }
+      width: 10em; }
       .nav-bar li a {
         align-items: center;
         margin: 0 auto; }

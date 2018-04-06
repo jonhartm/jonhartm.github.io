@@ -2,6 +2,7 @@
 
 header {
   background-color: $secondary-background;
+
   background-size: cover;
   margin-bottom: 20px;
 }
@@ -17,6 +18,8 @@ header {
 
 nav {
   align-items: flex-end;
+  background-color: rgba($light-accent, .4);
+
   border-bottom: $heavy-border;
   border-top: $heavy-border;
   display: flex;

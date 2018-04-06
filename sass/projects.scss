@@ -70,9 +70,11 @@
   img {
     border: 1px solid $text;
     display: none; // supress images unless we're on the tablet/desktop version
+    height: auto;
     max-height: 180px;
-    max-width: 50%;
+    max-width: 180px;
     padding: 1%;
+    width: 50%;
   }
 
   p {
