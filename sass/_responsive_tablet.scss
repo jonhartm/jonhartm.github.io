@@ -48,24 +48,24 @@ $desktop-width: 1000px;
 
     ul {
       margin-top: .5em;
+    }
 
-      li {
-        align-items: center;
-        border: $heavy-border;
-        height: 2.5em;
+    li {
+      align-items: center;
+      border: $heavy-border;
+      height: 2.5em;
 
-        a {
-          display: block;
-          margin: .25em;
+      &:hover {
+        background-color: $light-accent;
+      }
+    }
 
-          &:hover {
-            border: 0; // remove the border effect from earlier
-          }
-        }
+    a {
+      display: block;
+      margin: .25em;
 
-        &:hover {
-          background-color: $light-accent;
-        }
+      &:hover {
+        border: 0; // remove the border effect from earlier
       }
     }
   }

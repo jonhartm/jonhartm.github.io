@@ -27,25 +27,25 @@ nav {
   ul {
     display: none;
     width: 100%;
+  }
 
-    li {
-      border-top: $heavy-border;
-      color: $dark-accent;
-      display: flex;
-      text-shadow: 1px 2px 4px $shadow;
+  li {
+    border-top: $heavy-border;
+    color: $dark-accent;
+    display: flex;
+    text-shadow: 1px 2px 4px $shadow;
 
-      &:not(.active-page):hover {
-        background-color: $light-accent;
-      }
-
-      a {
-        font-size: 1.25em;
-        line-height: 1.5em;
-        margin: 0 auto;
-        text-align: center;
-        width: 100%;
-      }
+    &:not(.active-page):hover {
+      background-color: $light-accent;
     }
+  }
+
+  a {
+    font-size: 1.25em;
+    line-height: 1.5em;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
   }
 }
 
