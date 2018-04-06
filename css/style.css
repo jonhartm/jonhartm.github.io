@@ -32,6 +32,8 @@ nav {
       background-color: #6498d3; }
     nav li:not(.active-page):focus-within {
       background-color: #6498d3; }
+    nav li:not(.active-page):active {
+      background-color: #fff; }
   nav a {
     font-size: 1.25em;
     line-height: 1.5em;
@@ -217,6 +219,8 @@ footer {
         background-color: #6498d3; }
       .contact li:focus-within {
         background-color: #6498d3; }
+      .contact li:active {
+        background-color: #fff; }
     .contact a {
       display: block;
       margin: .25em; }

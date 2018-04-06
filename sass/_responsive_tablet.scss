@@ -75,6 +75,10 @@ $desktop-width: 1000px;
       &:focus-within {
         background-color: $light-accent;
       }
+
+      &:active {
+        background-color: $background;
+      }
     }
 
     a {

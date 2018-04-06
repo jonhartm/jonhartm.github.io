@@ -44,6 +44,10 @@ nav {
     &:not(.active-page):focus-within {
       background-color: $light-accent;
     }
+
+    &:not(.active-page):active {
+      background-color: $background;
+    }
   }
 
   a {
