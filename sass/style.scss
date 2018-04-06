@@ -102,7 +102,7 @@ body {
     display: flex;
     justify-content: space-around;
 
-    a:hover {
+    a {
       border-bottom: $heavy-border;
       border-radius: 5%;
       border-top: $heavy-border;

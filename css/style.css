@@ -140,7 +140,7 @@ body {
   .contact ul {
     display: flex;
     justify-content: space-around; }
-    .contact ul a:hover {
+    .contact ul a {
       border-bottom: 3px solid #08294f;
       border-radius: 5%;
       border-top: 3px solid #08294f; }
@@ -189,15 +189,16 @@ footer {
       margin-top: .5em; }
     .contact li {
       align-items: center;
+      background-color: #b3cdea;
       border: 3px solid #08294f;
       height: 2.5em; }
+      .contact li a {
+        border: 0; }
       .contact li:hover {
         background-color: #6498d3; }
     .contact a {
       display: block;
       margin: .25em; }
-      .contact a:hover {
-        border: 0; }
 
   .project-container .description {
     display: flex;

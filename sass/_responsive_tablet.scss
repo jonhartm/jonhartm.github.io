@@ -60,8 +60,13 @@ $desktop-width: 1000px;
 
     li {
       align-items: center;
+      background-color: lighten($light-accent, 20%);
       border: $heavy-border;
       height: 2.5em;
+
+      a {
+        border: 0;
+      }
 
       &:hover {
         background-color: $light-accent;
@@ -71,10 +76,6 @@ $desktop-width: 1000px;
     a {
       display: block;
       margin: .25em;
-
-      &:hover {
-        border: 0; // remove the border effect from earlier
-      }
     }
   }
 
