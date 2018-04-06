@@ -19,6 +19,14 @@ $desktop-width: 1000px;
   .project-container {
     max-width: 80%;
 
+    h3 {
+      font-size: 115%;
+    }
+
+    p {
+      font-size: 115%;
+    }
+
     &:nth-child(even) {
       p {
         order: -1;
@@ -71,7 +79,6 @@ $desktop-width: 1000px;
   }
 
   .project-container {
-
     .description {
       display: flex;
       flex-flow: row nowrap;

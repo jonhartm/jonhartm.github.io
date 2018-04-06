@@ -22,19 +22,19 @@ nav {
   nav ul {
     display: none;
     width: 100%; }
-    nav ul li {
-      border-top: 3px solid #08294f;
-      color: #1d5596;
-      display: flex;
-      text-shadow: 1px 2px 4px #808080; }
-      nav ul li:not(.active-page):hover {
-        background-color: #6498d3; }
-      nav ul li a {
-        font-size: 1.25em;
-        line-height: 1.5em;
-        margin: 0 auto;
-        text-align: center;
-        width: 100%; }
+  nav li {
+    border-top: 3px solid #08294f;
+    color: #1d5596;
+    display: flex;
+    text-shadow: 1px 2px 4px #808080; }
+    nav li:not(.active-page):hover {
+      background-color: #6498d3; }
+  nav a {
+    font-size: 1.25em;
+    line-height: 1.5em;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%; }
 
 .active-page {
   background-color: #a3a3a3; }
@@ -138,7 +138,7 @@ body {
   .contact ul {
     display: flex;
     justify-content: space-around; }
-    .contact ul li a:hover {
+    .contact ul a:hover {
       border-bottom: 3px solid #08294f;
       border-radius: 5%;
       border-top: 3px solid #08294f; }
@@ -162,6 +162,10 @@ footer {
 
   .project-container {
     max-width: 80%; }
+    .project-container h3 {
+      font-size: 115%; }
+    .project-container p {
+      font-size: 115%; }
     .project-container:nth-child(even) p {
       order: -1; }
 
@@ -181,17 +185,17 @@ footer {
     width: 10em; }
     .contact ul {
       margin-top: .5em; }
-      .contact ul li {
-        align-items: center;
-        border: 3px solid #08294f;
-        height: 2.5em; }
-        .contact ul li a {
-          display: block;
-          margin: .25em; }
-          .contact ul li a:hover {
-            border: 0; }
-        .contact ul li:hover {
-          background-color: #6498d3; }
+    .contact li {
+      align-items: center;
+      border: 3px solid #08294f;
+      height: 2.5em; }
+      .contact li:hover {
+        background-color: #6498d3; }
+    .contact a {
+      display: block;
+      margin: .25em; }
+      .contact a:hover {
+        border: 0; }
 
   .project-container .description {
     display: flex;
