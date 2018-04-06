@@ -3,11 +3,13 @@
   margin: 3em auto;
   padding: 2%;
   width: 90%; }
+  .project p {
+    padding-top: 1em; }
 
 .image-container {
   display: none;
   flex-direction: row;
-  height: 200px;
+  height: 400px;
   justify-content: center;
   margin: 1% auto;
   max-width: 750px; }
@@ -16,5 +18,8 @@
     height: 100%;
     margin: auto;
     width: auto; }
+  .image-container .caption {
+    font-style: italic;
+    text-align: center; }
 
 /*# sourceMappingURL=project_details.css.map */
