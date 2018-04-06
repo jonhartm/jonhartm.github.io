@@ -30,6 +30,10 @@ h3 {
   text-align: right;
 }
 
+h4 {
+  @include information-text;
+}
+
 p {
   @include standard-text;
 }

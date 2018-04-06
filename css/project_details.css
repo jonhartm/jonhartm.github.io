@@ -24,8 +24,10 @@
   flex-direction: row;
   height: 400px;
   justify-content: center;
-  margin: 1% auto;
+  margin: 2% auto;
   max-width: 750px; }
+  .image-container .info {
+    text-align: center; }
   .image-container img {
     display: none;
     height: 100%;

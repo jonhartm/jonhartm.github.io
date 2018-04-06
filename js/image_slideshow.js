@@ -1,8 +1,16 @@
 $(document).ready(function() {
-  $('.project').hover(function() {
-    console.log("starting");
-    var images = $(this).find(".image-container").children("img");
-    var cap = $(this).find(".image-container").children(".caption");
+  // set informational text over all image containers that have more than one image
+  var all_containers = $('.image-container');
+  for (var i = 0; i < all_containers.length; i++) {
+    if ($(all_containers[i]).children("img").length > 1) {
+      $(all_containers[i]).find("h4").html("(Hover over the image to start a slideshow)");
+    }
+  }
+
+
+  $('.image-container').hover(function() {
+    var images = $(this).children("img");
+    var cap = $(this).children(".caption");
     if (images.length > 1) { // don't bother unless there's at least two pictures
       $(images).not(".active").css({"display":"none"});
       var active_index = -1;

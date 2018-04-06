@@ -83,6 +83,12 @@ h3 {
   color: #6498d3;
   text-align: right; }
 
+h4 {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: .75em;
+  font-style: italic;
+  color: #08294f; }
+
 p {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 1em;

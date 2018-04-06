@@ -42,6 +42,15 @@ $light-border: 1px solid $text;
   color: $light-accent;
 }
 
+@mixin information-text {
+  font: {
+    family: $font-family;
+    size: .75em;
+    style: italic;
+  }
+  color: $text;
+}
+
 @mixin standard-text {
   font: {
     family: $font-family;
