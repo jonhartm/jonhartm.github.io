@@ -141,5 +141,9 @@ footer {
   width: 100%;
 }
 
+@import 'projects';
+@import 'project_details';
+@import 'resume';
+
 @import 'responsive_tablet';
 @import 'responsive_desktop';
