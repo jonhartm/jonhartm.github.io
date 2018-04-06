@@ -19,6 +19,19 @@
     .project a:hover {
       background-color: #6498d3; }
 
+.in-progress::before {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1.25em;
+  color: #1d5596;
+  background-color: #1d5596;
+  border: 3px solid #08294f;
+  color: #fff;
+  content: 'in progress...';
+  margin: auto;
+  margin-bottom: 1em;
+  text-align: center;
+  width: 50%; }
+
 .image-container {
   display: none;
   flex-direction: row;

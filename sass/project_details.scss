@@ -28,6 +28,22 @@
       background-color: $light-accent;
     }
   }
+
+}
+
+.in-progress {
+
+  &::before {
+    @include secondary-title-text;
+    background-color: $dark-accent;
+    border: $heavy-border;
+    color: $background;
+    content: 'in progress...';
+    margin: auto;
+    margin-bottom: 1em;
+    text-align: center;
+    width: 50%;
+  }
 }
 
 .image-container {
