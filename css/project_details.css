@@ -5,6 +5,7 @@
   width: 90%; }
 
 .image-container {
+  display: none;
   flex-direction: row;
   height: 200px;
   justify-content: center;

@@ -71,6 +71,14 @@
     }
   }
 
+  .image-container {
+    display: block;
+
+    .active {
+      display: block;
+    }
+  }
+
   footer {
     font-size: 75%;
     line-height: 1.5em;

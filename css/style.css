@@ -203,10 +203,7 @@ footer {
     flex-flow: row nowrap;
     justify-content: space-evenly; }
     .project-container .description img {
-      display: block; }
-
-  .image-container .active {
-    display: block; } }
+      display: block; } }
 @media screen and (min-width: 1000px) {
   .contact {
     width: 20%; }
@@ -255,6 +252,11 @@ footer {
       transform: translate(5px, 5px);
       transition-duration: .25s;
       transition-timing-function: ease-in-out; }
+
+  .image-container {
+    display: block; }
+    .image-container .active {
+      display: block; }
 
   footer {
     font-size: 75%;
