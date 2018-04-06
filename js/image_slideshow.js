@@ -4,6 +4,9 @@ $(document).ready(function() {
   for (var i = 0; i < all_containers.length; i++) {
     if ($(all_containers[i]).children("img").length > 1) {
       $(all_containers[i]).find("h4").html("(Hover over the image to start a slideshow)");
+    } else {
+      $(all_containers[i]).find("h4").html("Single Image");
+      $(all_containers[i]).find("h4").hide();
     }
   }
 
