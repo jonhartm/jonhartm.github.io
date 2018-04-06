@@ -1,5 +1,7 @@
 .filter-prompt {
-  display: none; }
+  color: #08294f;
+  display: none;
+  text-align: center; }
 
 .filter {
   align-items: center;

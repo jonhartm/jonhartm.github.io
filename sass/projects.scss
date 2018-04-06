@@ -1,7 +1,9 @@
 @import 'color_pallet';
 
 .filter-prompt {
+  color: $text;
   display: none;
+  text-align: center;
 }
 
 .filter {
