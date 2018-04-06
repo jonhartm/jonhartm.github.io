@@ -39,4 +39,20 @@ $(document).ready(function() {
       });
     }
   });
+
+  /*
+    If the user is on a desktop, hovering over project container divs will
+    fade out the image and display text in it's place
+  */
+  $(".project-container").hover(function() {
+    if ($(window).width() > 1000) {
+      $("p", this).show("fade", 500);
+      $("img", this).fadeTo(500, 0.1);
+    }
+  }, function() {
+    if ($(window).width() > 1000) {
+      $("p", this).hide("fade", 500);
+      $("img", this).fadeTo(500, 1);
+    }
+  });
 });

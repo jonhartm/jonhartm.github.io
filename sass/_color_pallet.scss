@@ -1,5 +1,7 @@
-$tablet-width: 480px;
-$desktop-width: 1000px;
+// Colors, borders, fonts, and responsive cutoffs that are shared in other sass files.
+
+$tablet-width: 480px; // minimum size for the tablet version to be shown
+$desktop-width: 1000px;  // minimum size for the tablet version to be shown
 
 $background: #fff;
 $secondary-background: #c9c9c9;
