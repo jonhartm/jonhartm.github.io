@@ -1,6 +1,5 @@
 header {
   background-color: #c9c9c9;
-  background-size: cover;
   margin-bottom: 20px; }
 
 .fa-bars {
@@ -94,10 +93,17 @@ p {
   font-size: 1em;
   color: #08294f; }
 
+.portrait-background {
+  background-image: url("../images/portraitbg.png");
+  background-repeat: repeat;
+  background-size: cover; }
+
 .title {
   border-bottom: 3px solid #08294f;
-  margin: 1em auto;
+  margin: 0 auto;
+  margin-bottom: .5em;
   max-width: 450px;
+  padding-top: 1em;
   text-align: center;
   width: 95%; }
   .title .pre {
@@ -133,15 +139,15 @@ body {
       border-bottom: 1px solid #08294f;
       font-style: italic;
       margin: .25em 1em; }
-  body p {
+  body .intro {
     background-color: #c9c9c9;
     border: 1px solid #08294f;
     border-radius: 20px;
     font-size: 150%;
     margin: auto;
     max-width: 750px;
-    width: 80%;
-    padding: 1em; }
+    padding: 1em;
+    width: 80%; }
 
 .contact {
   background-color: #fff;

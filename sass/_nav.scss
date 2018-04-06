@@ -2,8 +2,6 @@
 
 header {
   background-color: $secondary-background;
-
-  background-size: cover;
   margin-bottom: 20px;
 }
 
@@ -19,7 +17,7 @@ header {
 nav {
   align-items: flex-end;
   background-color: rgba($light-accent, .6);
-
+  // background-image: url("../images/blur-3280300_1920.jpg");
   border-bottom: $heavy-border;
   border-top: $heavy-border;
   display: flex;
@@ -55,6 +53,19 @@ nav {
     text-align: center;
     width: 100%;
   }
+
+  // &::after {
+  //   content: "";
+  //   background-image: url("../images/desktop-3246124_1920.jpg");
+  //   background-repeat: repeat;
+  //   opacity: 0.5;
+  //   top: 0;
+  //   left: 0;
+  //   bottom: 0;
+  //   right: 0;
+  //   position: absolute;
+  //   z-index: -1;
+  // }
 }
 
 .active-page {
