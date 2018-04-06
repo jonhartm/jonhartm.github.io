@@ -19,9 +19,9 @@ $(document).ready(function() {
     });
     if (ckd.length == 0) {
       // nothing selected, so unfade everything
-      $(".project_container").fadeIn();
+      $(".project-container").fadeIn();
     } else {
-      $(".project_container").each(function() {
+      $(".project-container").each(function() {
         // go through each container and get the details
         var project_details = $("h3", this).text();
         var contains = false;
