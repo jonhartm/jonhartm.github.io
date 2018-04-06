@@ -22,11 +22,11 @@
       align-content: space-between;
       display: flex;
       flex-direction: row; }
-      .resume-section .resume-entry .entry-title .description {
-        font-style: italic;
-        margin-left: 0; }
-      .resume-section .resume-entry .entry-title .date {
-        margin-right: 0; }
+    .resume-section .resume-entry .description {
+      font-style: italic;
+      margin-left: 0; }
+    .resume-section .resume-entry .date {
+      margin-right: 0; }
     .resume-section .resume-entry .list-title {
       margin: .5em 0; }
   .resume-section ul {
