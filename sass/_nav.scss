@@ -18,7 +18,7 @@ header {
 
 nav {
   align-items: flex-end;
-  background-color: rgba($light-accent, .4);
+  background-color: rgba($light-accent, .6);
 
   border-bottom: $heavy-border;
   border-top: $heavy-border;
@@ -33,6 +33,7 @@ nav {
   }
 
   li {
+    background-color: lighten($light-accent, 20%);
     border-top: $heavy-border;
     color: $dark-accent;
     display: flex;

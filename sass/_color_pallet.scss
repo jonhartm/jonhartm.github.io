@@ -36,7 +36,7 @@ $light-border: 1px solid $text;
 @mixin emphasis-text {
   font: {
     family: $font-family;
-    size: .75em;
+    size: 1em;
     style: italic;
   }
   color: $light-accent;
