@@ -203,7 +203,10 @@ footer {
     flex-flow: row nowrap;
     justify-content: space-evenly; }
     .project-container .description img {
-      display: block; } }
+      display: block; }
+
+  .image-container .active {
+    display: block; } }
 @media screen and (min-width: 1000px) {
   .contact {
     width: 20%; }
