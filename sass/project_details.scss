@@ -2,12 +2,31 @@
 
 .project {
   border-bottom: $heavy-border;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: 3em auto;
   padding: 2%;
   width: 90%;
 
+  h3 {
+    font-size: 115%;
+  }
+
   p {
     padding-top: 1em;
+  }
+
+  a {
+    align-self: center;
+    border: $light-border;
+    border-radius: 10px;
+    margin: .5em;
+    padding: .25em;
+
+    &:hover {
+      background-color: $light-accent;
+    }
   }
 }
 
