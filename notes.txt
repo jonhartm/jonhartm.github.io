@@ -1,0 +1,5 @@
+SASS:
+  sass --watch \inputfolder:\outputfolder
+
+Autoprefixer:
+  postcss inputfile --verbose -u autoprefixer -o outputfile --watch
