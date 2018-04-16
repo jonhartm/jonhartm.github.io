@@ -8,9 +8,26 @@
 <body>
   <h1>Jonathan Hartman</h1>
   <div class="img_container">
-    <img src="images/examPic.JPG"/>
+    <img id="examPic" src="images/examPic.JPG"/>
     <img src="images/UMSI-logo.jpg"/>
   </div>
-  <button>Hide Image</button>
-  <button>Show Image</button>
+  <button id="Hide">Hide Image</button>
+  <button id="Show">Show Image</button>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+<script>
+$(document).ready(function() {
+  $("#Hide").click(function() {
+    // console.log("hide");
+    $("#examPic").hide()
+  });
+  $("#Show").click(function() {
+    // console.log("show")
+    $("#examPic").show()
+  });
+});
+</script>
 </body>
