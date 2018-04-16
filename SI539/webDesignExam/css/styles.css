@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-image: url("../images/circles-dark.png");
 }
@@ -6,11 +10,11 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  width: 100%;
 }
 
 img {
   border: 5px solid blue;
   padding: 5%;
   width: 50%;
-  height: auto;
 }
