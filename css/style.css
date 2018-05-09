@@ -92,8 +92,9 @@ h4 {
 
 p {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 1em;
-  color: #08294f; }
+  font-size: 1.1em;
+  color: #08294f;
+  line-height: 1.1em; }
 
 .portrait-background {
   background-image: url("../images/portraitbg.png");

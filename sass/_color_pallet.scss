@@ -56,7 +56,8 @@ $light-border: 1px solid $text;
 @mixin standard-text {
   font: {
     family: $font-family;
-    size: 1em;
+    size: 1.1em;
   }
   color: $text;
+  line-height: 1.1em;
 }

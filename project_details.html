@@ -34,34 +34,61 @@
       <p>
         This project is intended as a cumulative assessment of concepts covered
         in SI 506 - Introduction to Python. Required components were accessing
-        two different APIs, defining class instances, demonstrate sorting, and
-        creating an output file. My implementation in particular uses a console
-        input to prompt the user for a query with which to search the New York
-        Times API. The first 10 responses from the API are displayed to the
-        user, sorted by age in days. The user is then prompted to select an
-        article, the keywords of which are used to search the Flickr API for
-        pictures which may be related to the article's content. The output
-        consists of a simple HTML page containing the selected article's title,
-        a brief summary, and a list of photos with associated keywords.
+        two different APIs, defining class instances, demonstrating sorting, and
+        creating a human-readable output file. My implementation in particular
+        uses a console input to prompt the user for a query with which to search
+        the <a href="https://developer.nytimes.com/">New York Times API</a>. The
+        first 10 responses from the API are displayed to the user, sorted by age
+        in days. The user is then prompted to select an article, the keywords of
+        which are used to search the Flickr API for pictures which may be related
+        to the article's content. The output consists of a simple HTML page
+        containing the selected article's title, a brief summary, and a list of
+        photos with associated keywords.
       </p>
-      <a href="https://github.com/jonhartm/506_FinalProject">Github Repository</a>
+      <a class="project-link" href="https://github.com/jonhartm/506_FinalProject">Github Repository</a>
     </div>
-    <div class="project in-progress" id="507FinalProject">
+    <div class="project" id="507FinalProject">
       <h2>SI507 Final Project</h2>
       <h3>Python, SQL</h3>
+      <div class="image-container">
+        <div class="info"><h4></h4></div>
+        <img class="active" src="images/507Cover.PNG" alt="Main Project Page">
+        <img src="images/507Details.PNG" alt="Details for a particular Movie">
+        <img src="images/507Ratings.PNG" alt="Aggregated Ratings by Movie. Critics vs Users.">
+        <img src="images/507SQLTables.PNG" alt="SQL Tables for the backend.">
+        <div class="caption">Main Project Page</div>
+      </div>
       <p>
         This project is a demonstration of our understanding of concepts covered
         in SI 507 - Intermediate Python: APIs, web scraping and SQL. We were
         offered a fair bit of leeway in our choice of project, as long as it met
         the basic criteria of obtaining and collating data from multiple sources
         and displaying it to the user. I chose to pull data on movies from
-        multiple sources - a large set of .csv files from Kaggle, the Open Movie
-        database API, and Wikipedia - in order to create a data set from which
-        the user can query.
+        multiple sources -
+        <a href="https://www.kaggle.com/rounakbanik/the-movies-dataset/data">a large set of .csv files from Kaggle</a>,
+        the <a href="http://www.omdbapi.com/">Open Movie Database API</a>, and
+        Wikipedia - in order to create a data set from which the user can query.
+        Data from these sources was pulled using several python scripts,
+        utilizing the Requests and
+        <a href="https://www.crummy.com/software/BeautifulSoup/">BeautifulSoup</a>
+        libraries, and inserted into a SQLite database. The database allows
+        references to be made between various movies, user reviews, and cast &
+        crew data pulled from the data sources.
       </p>
-      <a href="https://github.com/jonhartm/507_FinalProject">Github Repository</a>
+      <p>
+        The user interface is a web application, utilizing the python
+        <a href="http://flask.pocoo.org">Flask Microframework</a>,
+        with templates and POST requests to allow a user to sort and filter data,
+        as well as navigate to pages by movie title or cast/crew name. Data is
+        pulled from the SQLite database and displayed using a mix of html tables
+        and the
+        <a href="https://plot.ly/javascript/">plotly.js library</a> to display a
+        variety of simple graphs based on SQL queries constructed based on the 
+        html forms. A detailed readme is also provided on the github repository.
+      </p>
+      <a class="project-link" href="https://github.com/jonhartm/SI507_FinalProject">Github Repository</a>
     </div>
-    <div class="project in-progress" id="539Portfolio">
+    <div class="project" id="539Portfolio">
       <h2>SI539 Final Portfolio Site</h2>
       <h3>HTML, CSS, SASS, Javascript/jQuery</h3>
       <div class="image-container">
@@ -69,7 +96,7 @@
         <img class="active" src="images/539Cover.PNG" alt="Main Project Page">
         <img src="images/539Responsive.PNG" alt="Responsive View for tablets">
         <img src="images/539ResponsiveMobile.PNG" alt="Responsive View for mobile browsers">
-        <div class="caption">Slide from Webinar Presentation</div>
+        <div class="caption">Main Project Page</div>
       </div>
       <p>
         You're looking at it. We were asked to create a multi-page personal
@@ -78,7 +105,7 @@
         emphasis on SASS as an alternative to CSS coding, and jQuery to add an
         element of interactivity to aspects of the site.
       </p>
-      <a href="https://github.com/jonhartm/jonhartm.github.io">Github Repository</a>
+      <a class="project-link" href="https://github.com/jonhartm/jonhartm.github.io">Github Repository</a>
     </div>
     <div class="project" id="643Webinar">
       <h2>Interactive Webinar on Copyright</h2>
@@ -95,7 +122,7 @@
         project was on planning and designing an engaging presentation within a
         given timeframe.
       </p>
-      <a href="https://bluejeans.com/s/8qoAv">Webinar Recording</a>
+      <a class="project-link" href="https://bluejeans.com/s/8qoAv">Webinar Recording</a>
     </div>
     <div class="project in-progress" id="TSUGIAnalytics">
       <h2>TSUGI Quiz Module Analytics</h2>
@@ -108,7 +135,8 @@
         <div class="caption">Prototype Screens</div>
       </div>
       <p>
-        An attempt to extend the existing quiz module from the TSUGI project to
+        An attempt to extend the existing quiz module from the
+        <a href="https://www.tsugicloud.org/">TSUGI project</a> to
         provide the instructor with statistics to obtain a more detailed
         formative assessment. Parses and stores the quiz results from each
         student as the quiz is attempted in the module's database entry. The
@@ -117,22 +145,38 @@
         as well as a detailed look at each question to see common mis-conceptions
         students may have had.
       </p>
-      <a href="https://github.com/jonhartm/gift/tree/quiz_results">Github Repository</a>
+      <p>
+        Visuals are created using <a href="https://www.chartjs.org/">Chart.js</a>
+        and pulled from the Tsugi database. Getting results required a re-write of the
+        manner in which quizzes were stored in the database - the quizzes had been stored
+        in plain-text GIFT format, however the results view requires the results of all quiz
+        takers in serialized JSON alongside it, which required a minor change to the
+        data model of the quiz module.
+      </p>
+      <a class="project-link" href="https://github.com/jonhartm/gift/tree/quiz_results">Github Repository</a>
     </div>
     <div class="project in-progress" id="TSUGIAuthoring">
       <h2>TSUGI Quiz Module Authoring</h2>
       <h3>HTML, CSS, PHP, Javascript/jQuery</h3>
+      <div class="image-container">
+        <div class="info"><h4></h4></div>
+        <img class="active" src="images/TsugiAuthCover.PNG" alt="Preliminary Authoring Form">
+        <div class="caption">Preliminary Authoring Form</div>
+      </div>
       <p>
-        An attempt to make the user interface for the existing TSUGI quiz module
-        more approachable. The original interface uses the Moodle GIFT file
-        format input in plain text, which some prospective users found either
+        An attempt to extend the existing quiz module from the
+        <a href="https://www.tsugicloud.org/">TSUGI project</a>
+        to make the user interface for the existing TSUGI quiz module
+        more approachable. The original interface uses the
+        <a href="https://docs.moodle.org/23/en/GIFT_format">Moodle GIFT file format</a>
+        input in plain text, which some prospective users found either
         intimidating or more complicated than they were interested in. At the same
         time, existing users indicated a preference for an all-keyboard entry.
-        As a compromise, I designed a html form that allowed for mouse and
-        keyboard entry, while allowing confident users to quickly tab through
-        entry fields.
+        As a compromise, I've designed a html form within the existing TSUGI
+        quiz module that allows  for mouse and keyboard entry, while allowing
+        confident users to quickly tab through entry fields.
       </p>
-      <a href="https://github.com/jonhartm/gift/tree/authoring">Github Repository</a>
+      <a class="project-link" href="https://github.com/jonhartm/gift/tree/authoring">Github Repository</a>
     </div>
     <div class="project" id="OpenTKOpenGL">
       <h2>OpenGL in C#</h2>
@@ -149,7 +193,7 @@
         machine in an object-oriented language in the most efficient way
         possible.
       </p>
-      <a href="https://github.com/jonhartm/OpenTK">Github Repository</a>
+      <a class="project-link" href="https://github.com/jonhartm/OpenTK">Github Repository</a>
     </div>
     <div class="project" id="582Prototype">
       <h2>Digital Application Prototype</h2>
