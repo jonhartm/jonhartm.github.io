@@ -1,0 +1,116 @@
+.container-title {
+  background-color: #ddd;
+  border-bottom: 1px solid #808080;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 2%; }
+  .container-title .heading-text {
+    margin-bottom: .5em; }
+
+.container-content {
+  margin: 3% 1%; }
+  .container-content h3 {
+    font-family: "OpenSans-Light", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: .8em;
+    color: #000;
+    line-height: 1.1em; }
+  .container-content p {
+    white-space: pre-line; }
+
+.search-container {
+  box-shadow: 5px 5px 10px #808080;
+  background-color: #f2f2f2;
+  border: 1px solid #808080;
+  border-radius: 20px;
+  margin: 5%;
+  padding-bottom: 2%; }
+
+div[class^="session-type"] {
+  font-family: "OpenSans-Light", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: .8em;
+  color: #000;
+  line-height: 1.1em;
+  border: 1px solid #000;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 2em;
+  margin: 0 auto;
+  padding: .2em;
+  text-align: right; }
+
+.session-type-plenary {
+  background-color: #0af; }
+
+.session-type-invitedcolliquia {
+  background-color: #4fa; }
+
+.search-controls {
+  background-color: #ddd;
+  border: 1px solid #808080;
+  border-radius: 10px;
+  font-size: 2em;
+  margin: 2%;
+  padding: 1%; }
+  .search-controls input,
+  .search-controls select {
+    font-size: .8em; }
+  .search-controls input {
+    width: 100%; }
+
+* {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+body {
+  background-color: #dfddcf;
+  font-size: 200%;
+  padding-bottom: 5em; }
+
+header {
+  border-bottom: 1px solid #000;
+  margin: 1%; }
+  header h1 {
+    font-size: 3em;
+    padding: 1em 0;
+    text-align: center; }
+
+.static-footer {
+  bottom: 0;
+  font-size: 2em;
+  left: 0;
+  padding: 5%;
+  position: fixed;
+  width: 100%; }
+
+.alt-color {
+  background-color: #8a100b;
+  color: #fff; }
+
+.emphasis-text {
+  font-family: "OpenSans-Light", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: .9em;
+  font-style: italic;
+  color: #000;
+  line-height: 1.1em; }
+
+.heading-text {
+  font-family: "OpenSans-Light", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 2em;
+  color: #000;
+  line-height: 1.3em; }
+
+.sub-heading-text {
+  font-family: "OpenSans-Light", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: .9em;
+  color: #000;
+  line-height: 1.1em; }
+
+.standard-text {
+  font-family: "OpenSans-Light", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: .8em;
+  color: #000;
+  line-height: 1.1em; }
+
+/*# sourceMappingURL=main.css.map */

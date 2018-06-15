@@ -1,0 +1,38 @@
+$font-family: 'OpenSans-Light', Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+@mixin title-heading-text {
+  font: {
+    family: $font-family;
+    size: 2em;
+  }
+  color: $text;
+  line-height: 1.3em;
+}
+
+@mixin sub-heading-text {
+  font: {
+    family: $font-family;
+    size: .9em;
+  }
+  color: $text;
+  line-height: 1.1em;
+}
+
+@mixin emphasis-text {
+  font: {
+    family: $font-family;
+    size: .9em;
+    style: italic;
+  }
+  color: $text;
+  line-height: 1.1em;
+}
+
+@mixin standard-text {
+  font: {
+    family: $font-family;
+    size: .8em;
+  }
+  color: $text;
+  line-height: 1.1em;
+}

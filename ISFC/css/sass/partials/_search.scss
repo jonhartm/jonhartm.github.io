@@ -1,0 +1,29 @@
+// styles for the search page
+
+.search-container {
+  @include drop-shadow;
+  background-color: $secondary-background;
+  border: $light-border;
+  border-radius: 20px;
+  margin: 5%;
+  padding-bottom: 2%;
+}
+
+div[class^="session-type"] {
+  @include standard-text;
+  border: $dark-border;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 2em;
+  margin: 0 auto;
+  padding: .2em;
+  text-align: right;
+}
+
+.session-type-plenary {
+  background-color: $blue;
+}
+
+.session-type-invitedcolliquia {
+  background-color: $green;
+}

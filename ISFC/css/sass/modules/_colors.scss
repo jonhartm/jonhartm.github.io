@@ -1,0 +1,19 @@
+// Color pallet
+$background: #dfddcf;
+$secondary-background: #f2f2f2;
+$dark-background: #ddd;
+$accent-red: #8a100b;
+
+$text: #000;
+$alternate-text: #fff;
+$shadow: #808080;
+
+$blue: #0af;
+$green: #4fa;
+
+$dark-border: 1px solid $text;
+$light-border: 1px solid $shadow;
+
+@mixin drop-shadow {
+  box-shadow: 5px 5px 10px $shadow;
+}

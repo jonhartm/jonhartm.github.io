@@ -1,0 +1,63 @@
+// modules
+@import 'modules/colors';
+@import 'modules/fonts';
+
+// partials
+@import 'partials/containers';
+@import 'partials/search';
+@import 'partials/searchform';
+
+* {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: $background;
+  font-size: 200%;
+  padding-bottom: 5em;
+}
+
+header {
+  border-bottom: $dark-border;
+  margin: 1%;
+
+  h1 {
+    font-size: 3em;
+    padding: 1em 0;
+    text-align: center;
+  }
+}
+
+.static-footer {
+  bottom: 0;
+  font-size: 2em;
+  left: 0;
+  padding: 5%;
+  position: fixed;
+  width: 100%;
+}
+
+.alt-color {
+  background-color: $accent-red;
+  color: $alternate-text;
+}
+
+.emphasis-text {
+  @include emphasis-text;
+}
+
+.heading-text {
+  @include title-heading-text;
+}
+
+.sub-heading-text {
+  @include sub-heading-text;
+}
+
+.standard-text {
+  @include standard-text;
+}

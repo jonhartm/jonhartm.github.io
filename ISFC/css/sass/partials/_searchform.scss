@@ -1,0 +1,17 @@
+.search-controls {
+  background-color: $dark-background;
+  border: $light-border;
+  border-radius: 10px;
+  font-size: 2em;
+  margin: 2%;
+  padding: 1%;
+
+  input,
+  select {
+    font-size: .8em;
+  }
+
+  input {
+    width: 100%;
+  }
+}
