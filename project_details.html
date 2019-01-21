@@ -22,6 +22,114 @@
   <h1 class="title">Project Details</h1>
 </header>
   <div class="projects_container">
+    <div class="project" id="671FinalProject">
+      <h2>Analyzing/Predicting Severe Weather From Historical Data</h2>
+      <h3>Python, Datamining</h3>
+      <div class="image-container">
+        <div class="info"><h4></h4></div>
+        <img class="active" src="images/placeholder.png" alt="Placeholder Image">
+        <div class="caption">Placeholder Image</div>
+      </div>
+      <p>
+        This project is a cumulative assesment of course content covered in
+        SI671 - Dataming. Parameters for the project were fairly loose - we were
+        asked to locate a data source we considered interesting, and apply a variety
+        of analysis in order to create some sort of predictive method. Evaluation
+        was based on the quality of the analysis, as well as a type final report
+        covering a project overview, methods, evaluation, and conclusions.
+      </p>
+      <p>
+        My project in particular focused on the
+        <a href="https://www.ncdc.noaa.gov/swdi/">NOAA's Severe Weather Data Inventory</a>,
+        a collection of nearly every severe weather event affecting the United States
+        from 1950 to present day, and which included a wide variety of geospatial
+        and temporal information. My analysis focused on creating sub-selections of
+        data based on event type and date and collecting the resulting events into
+        a matrix representation of the continental United States. Collecting that
+        data by county, I then applied a Gettis-Ord-G autocorrelation statistic
+        in order to attempt to locate significant patterns. A detailed account of
+        the methodology and results can be found in the Final Report PDF linked below.
+      </p>
+      <a class="project-link" href="storage/SI671_Final_Report.pdf">Final Report PDF</a>
+      <a class="project-link" href="storage/SI671_Project_Notebook.html">Final Report IPython Notebook</a>
+    </div>
+
+    <div class="project" id="650FinalProject">
+      <h2>Vertical Search Engine for Tweets</h2>
+      <h3>Python, HTML/CSS, Javascript/jQuery, Information Retrieval</h3>
+      <div class="image-container">
+        <div class="info"><h4></h4></div>
+        <img class="active" src="images/placeholder.png" alt="Placeholder Image">
+        <div class="caption">Placeholder Image</div>
+      </div>
+      <p>
+        This project is an implementation of a search system on a small scale. In
+        this instance, we collected every tweet made by a currently serving
+        Congressperson, index them by sender, and implemented a simple flask
+        application interface to allow a user to perform searches. The Python
+        "Woosh" library was leveraged to allow indexing and searching, however as
+        tweets are by their nature very short, a simple Okapi-BM25 search is
+        inadequate to capture relevant tweets. To address this, we applied Latent
+        Sematic Analysis over the indexed tweets to identify strongly related terms
+        and expand the initial query, which increased precision significantly in
+        our final product.
+      </p>
+      <a class="project-link" href="storage/SI650_Final_Report.pdf">Final Report PDF</a>
+      <a class="project-link" href="https://github.com/jonhartm/SI650_Project">Github Repository</a>
+    </div>
+
+    <div class="project" id="608FinalProject">
+      <h2>Network Analysis of Reddit Posts</h2>
+      <h3>Python, Network Analysis, Classification</h3>
+      <div class="image-container">
+        <div class="info"><h4></h4></div>
+        <img class="active" src="images/placeholder.png" alt="Placeholder Image">
+        <div class="caption">Placeholder Image</div>
+      </div>
+      <p>
+        This project used comments collected from Reddit from October of 2018 in
+        order to see if a basic network analysis of those comments could improve
+        the accuracy of a bot identifcation classifier. After locating a labeled
+        set of users who identified as bots, we extracted a traditional set of
+        text-based features - the number of user comments, time posted, number of
+        unique subreddits, etc - and perfomed a classification using both a Support
+        Vector Machine and a Random Forest Classifier. We then created a network
+        from the same dataset, nodes being individual users and directed edges
+        linking when one user commented on another's post. We then extracted
+        features from the resulting network such as Node Degree, Ego Density,
+        Clustering Coefficient, and Triadic Census. Additional classification
+        was performed on network features alone, as well as in conjunction with
+        traditional text features to see if the addition of network analysis
+        could improve the accuracy of the classifiers. The resulting analysis
+        indicated on average a 2% increase in accuracy with the addition of the
+        network.
+      </p>
+      <a class="project-link" href="storage/SI608_Final_Report.pdf">Final Report PDF</a>
+      <a class="project-link" href="https://github.com/jonhartm/SI608_Project/blob/master/608_project_final.ipynb">Github Repository</a>
+
+    </div>
+
+    <div class="project" id="618FinalProject">
+      <h2>Exploratory Analysis of Greenhouse Emission Data</h2>
+      <h3>Python, Data Visualization</h3>
+      <div class="image-container">
+        <div class="info"><h4></h4></div>
+        <img class="active" src="images/placeholder.png" alt="Placeholder Image">
+        <div class="caption">Placeholder Image</div>
+      </div>
+      <p>
+        This was a smaller project than most, in which we were to locate a data
+        set of significant size and answer a series of self posed questions
+        regarding that data with analysis and visualizations from the Python
+        libraries Pandas and Seaborn. My data came from the
+        <a href="https://aqs.epa.gov/aqsweb/airdata/download_files.html">US EPA's public air quality dataset</a>,
+        which includes daily readings from 204 sites around the US between
+        2000 and 2016. The specific questions and accompanying visualizations
+        can be found in the Final Report PDF linked below.
+      </p>
+      <a class="project-link" href="storage/SI618_Final_Report.pdf">Final Report PDF</a>
+      <a class="project-link" href="storage/SI618_Project_Notebook.html">Final Report IPython Notebook</a>
+    </div>
     <div class="project" id="506FinalProject">
       <h2>SI506 Final Project</h2>
       <h3>Python, HTML</h3>
@@ -83,7 +191,7 @@
         pulled from the SQLite database and displayed using a mix of html tables
         and the
         <a href="https://plot.ly/javascript/">plotly.js library</a> to display a
-        variety of simple graphs based on SQL queries constructed based on the 
+        variety of simple graphs based on SQL queries constructed based on the
         html forms. A detailed readme is also provided on the github repository.
       </p>
       <a class="project-link" href="https://github.com/jonhartm/SI507_FinalProject">Github Repository</a>
